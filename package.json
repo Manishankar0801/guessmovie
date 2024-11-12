@@ -1,0 +1,20 @@
+{
+  "name": "guessmovie",
+  "version": "1.0.0",
+  "description": "Lets start with node",
+  "main": "src/app.js",
+  "scripts": {
+    "start-dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mani Shankar Janumpalli",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
